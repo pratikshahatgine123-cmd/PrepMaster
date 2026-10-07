@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PrepMaster | Feedback</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            background: #eff6ff;
+        }
+
+        .box {
+            width: 500px;
+            max-width: 90%;
+            margin: 50px auto;
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px #ccc;
+        }
+
+        h1 {
+            text-align: center;
+            color: #172554;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 7px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #bbb;
+            border-radius: 7px;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        .rating {
+            text-align: center;
+            font-size: 30px;
+            margin: 15px 0;
+        }
+
+        .rating input {
+            width: auto;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px;
+            margin-top: 20px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 7px;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>Feedback</h1>
+
+    <form action="thanks.html">
+
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>How was your experience?</label>
+
+        <div class="rating">
+            ⭐ ⭐ ⭐ ⭐ ⭐
+        </div>
+
+        <label>Your Feedback</label>
+
+        <textarea
+            placeholder="Write your feedback here..."
+            required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+
+    </form>
+
+    <div class="links">
+        <a href="index.html">← Back to Home</a>
+    </div>
+
+</div>
+
+</body>
+</html>
